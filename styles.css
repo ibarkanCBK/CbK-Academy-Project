@@ -1,0 +1,90 @@
+h1,
+h2,
+h3,
+h4, a {
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+    height: 100%;
+    border: black solid 2px;
+    padding: 20px 20px 50px 20px;
+   
+}
+
+/* Home Page  */
+#home-landing {
+    height: 92vh;
+    background-image: url('https://www.seattlemag.com/sites/default/files/field/image/1211hottopicopne_0.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position:bottom center;
+    text-align: center;
+}
+
+#home-landing h1 {
+    font-size: 100px;
+    color: black;
+    text-shadow: 5px 5px 8px yellow;
+}
+
+/* Learn More Page  */
+
+#learn-more-landing {
+    height: 60vh;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/59f5ff1d017db23d90cea3d5/1560131034442-WE6ZEMWJHBK2FZGB79AN/ke17ZwdGBToddI8pDm48kM4ZNaw6Dk7xLPpMpoBhiupZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyWg9wtMaqL83NuqvKe1EENysuH5srkQLVxFwLtQ6la99g4N48uc8Jecmd2El5IS04/yellow+bodega.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    text-align: center;
+}
+#learn-more-landing h1 {
+   color: orange;
+   font-size:100px;
+   text-shadow: 5px 5px 5px black;
+}
+
+/* People Impacted Page */
+#people-impacted-landing {
+    height: 60vh;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/45/Boston_corner_shop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position :center;
+    text-align: center;
+}
+#people-impacted-landing h1 {
+   color: orange;
+   text-shadow: 5px 5px 5px black;
+   font-size:100px;
+}
+
+/* Resources Page */
+
+#resources-landing {
+    height: 60vh;
+    background-image: url('https://d3i6fh83elv35t.cloudfront.net/newshour/app/uploads/2015/08/GettyImages-97102000-1024x683.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    text-align:center;
+}
+#resources-landing h1 {
+   color: orange;
+   text-shadow: 5px 5px 5px black;
+   font-size:100px;
+}
+/* About the Developer Page  */
+#about-the-developer {
+    height: 60vh;
+    background-image: url('https://i.ytimg.com/vi/xMtqVC62q6o/maxresdefault.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    text-align:center;
+}
+#about-the-developer h1 {
+   color: orange;
+   text-shadow: 5px 5px 5px black;
+   font-size:100px;
+}
