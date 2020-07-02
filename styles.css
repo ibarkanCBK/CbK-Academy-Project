@@ -11,6 +11,29 @@ h4, a {
     padding: 20px 20px 50px 20px;
    
 }
+/* Navigation Bar */
+.nav-container {
+  height: 8vh;
+  background-color:black;
+  padding: 20px;
+}
+.nav-container h4 {
+  display:inline;
+  color:white;
+  font-size:20px;
+}
+
+#nav {
+  float:right;
+}
+
+#nav a {
+  color:white;
+  text-decoration: none;
+  padding: 20px 10px 0 10px;
+  font-size: 18px;
+}
+
 
 /* Home Page  */
 #home-landing {
