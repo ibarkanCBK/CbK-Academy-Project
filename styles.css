@@ -1,16 +1,40 @@
+  /* Global CSS Selectors */
+body {
+    background-color: orange;
+    padding: 0;
+    margin:0 auto;
+    
+}
 h1,
 h2,
 h3,
 h4, a {
   font-family: "Oswald", sans-serif;
 }
+h2 {
+   font-size: 40px; 
+}
+p,ul,ol{
+    font-family: "Barlow Condensed", sans-serif;
+}
+p {
+    font-size: 25px;
+    line-height: 35px;
+}
+ul,ol {
+  font-size: 25px;
+} 
 
+li {
+    margin-top: 20px;
+}
 .container {
     height: 100%;
     border: black solid 2px;
     padding: 20px 20px 50px 20px;
    
 }
+
 /* Navigation Bar */
 .nav-container {
   height: 8vh;
@@ -34,7 +58,6 @@ h4, a {
   font-size: 18px;
 }
 
-
 /* Home Page  */
 #home-landing {
     height: 92vh;
@@ -51,6 +74,13 @@ h4, a {
     text-shadow: 5px 5px 8px yellow;
 }
 
+#home-problem {
+    background-color:black;
+    color:white;
+    text-align:center;
+    font-size: 30px;
+    padding: 20px;
+}
 /* Learn More Page  */
 
 #learn-more-landing {
@@ -68,6 +98,7 @@ h4, a {
 }
 
 /* People Impacted Page */
+
 #people-impacted-landing {
     height: 60vh;
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/45/Boston_corner_shop.jpg');
@@ -81,6 +112,7 @@ h4, a {
    text-shadow: 5px 5px 5px black;
    font-size:100px;
 }
+
 
 /* Resources Page */
 
@@ -97,6 +129,7 @@ h4, a {
    text-shadow: 5px 5px 5px black;
    font-size:100px;
 }
+
 /* About the Developer Page  */
 #about-the-developer {
     height: 60vh;
